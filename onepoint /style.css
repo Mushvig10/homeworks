@@ -1,0 +1,123 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.logo
+{
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  object-fit: contain;
+}
+header
+{
+  display: flex;
+  background-color: rgb(17, 18, 18);
+  height: 100px;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.middle-header
+{
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.middle-header a {
+ 
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: large;
+  
+}
+
+.right-header {
+  margin-left: 100px;
+}
+
+.right-header a{
+ color: white;
+ 
+}
+.main-page
+{
+width: 100%;
+background-image: url(./images/bg-picture.jpeg); 
+background-size: cover;
+height: 88vh;
+display: flex;
+position: relative;
+}
+
+form
+{
+  width: 300px;
+  height: 450px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 30px;
+}
+form input{
+  display: block;
+  margin: 15px auto;
+  width: 85%;
+  height: 30px;
+  padding: 10px;
+  border: none;
+ border-bottom: 1px solid rgb(182, 178, 178);
+}
+
+
+
+form h2{
+  text-align: center;
+  margin-bottom: 35px;
+  padding: 17px 10px 5px 5px;
+}
+
+form button{
+  display: block;
+  width: 60%;
+  margin-left: 50px;
+  margin-top: 25px;
+  padding: 10px;
+  border: 2px solid rgb(250,200,25);
+  background: rgb(250,200,25);
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+
+}
+form button:hover{
+  border: 2px solid rgb(215, 170, 5);
+  background: rgb(220, 175, 12);
+}
+.form-text
+{
+display: flex;
+align-items:center;
+width: 100%;
+justify-content: center;
+background-color: rgba(255,255,255,0.8);
+}
+.text{
+  padding: 20px;
+  text-align: center;
+  max-width: 50%;
+  margin-left: 100px;
+
+}
+.text h1{
+margin-bottom: 40px;
+}
+

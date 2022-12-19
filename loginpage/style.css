@@ -1,0 +1,252 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;  
+}
+
+.login-page
+{
+  width: 800px;
+}
+body
+{
+  background-color: rgb(132, 186, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box
+{
+  display: flex;
+}
+.left-box
+
+{
+  background-color:white;
+  width: 400px;
+  height: 550px;
+  border-top-left-radius:15px ;
+  border-bottom-left-radius: 15px;
+  padding: 40px 30px 40px 40px;
+}
+.right-box
+
+{
+  background-color: rgb(80, 14, 212);
+  width: 400px;
+  height: 550px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 40px 40px 40px 30px;
+}
+.left-box h2
+{
+  color: rgb(65, 166, 239);
+  margin-bottom: 30px;
+}
+.right-box h2
+{
+  color: #fff;
+  margin-bottom: 30px;
+}
+.left-box form select
+{
+  border: none;
+font-size: 15px;
+border-bottom: 1px solid;
+color: rgb(154, 147, 147);
+padding: 10px;
+width: 100%;
+
+}
+.names {
+  display: flex;
+  justify-content: space-between;
+}
+.names input
+{
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid;
+  color: rgb(154, 147, 147);
+  width: calc(50% - 5px);
+  padding: 10px;
+
+}
+.company input
+{
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid;
+  color: rgb(154, 147, 147);
+  width: 100%;
+  padding: 10px;
+}
+
+.left-box select{
+
+  border: none;
+font-size: 15px;
+border-bottom: 1px solid;
+color: rgb(154, 147, 147);
+padding: 10px;
+width: 100%;
+}
+.business-employees
+{
+  display: flex;
+  justify-content: space-between;
+}
+.business-employees input, .business-employees select
+{
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid;
+  color: rgb(154, 147, 147);
+  width: calc(50% - 5px) !important;
+}
+.right-box .street-nr input
+{
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid;
+  background-color: rgb(80, 14, 212);
+  color: rgb(154, 147, 147);
+  width: 100%;
+  padding: 15px;
+}
+
+.right-box ::placeholder, .placeholder
+{
+  color: #fff;
+}
+
+.right-box .additional-info input
+{
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid;
+  background-color: rgb(80, 14, 212);
+  color: rgb(154, 147, 147);
+  width: 100%;
+  padding: 10px;
+}
+.zip-code {
+  display: flex;
+  justify-content: space-between;
+}
+.right-box .zip-code input
+{
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid;
+  color: rgb(154, 147, 147);
+  background-color: rgb(80, 14, 212);
+  width: calc(50% - 5px);
+  padding: 10px;
+}
+.right-box .zip-code select
+{
+  border: none;
+font-size: 15px;
+border-bottom: 1px solid;
+color: rgb(154, 147, 147);
+padding: 10px;
+background-color: rgb(80, 14, 212);
+width: calc(50% - 5px);
+}
+.right-box .zip-code select .place-color
+{
+  color: white;
+}
+.right-box .country select
+{
+
+
+font-size: 15px;
+border: none;
+border-bottom: 1px solid;
+color: rgb(154, 147, 147);
+background-color: rgb(80, 14, 212);
+width: 100%;
+padding: 10px;
+}
+.right-box .code input
+{
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid;
+  color: rgb(154, 147, 147);
+  background-color: rgb(80, 14, 212);
+  width: 100px;
+  padding: 10px;
+
+ 
+}
+.phone-number input
+{
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid;
+  color: rgb(154, 147, 147);
+  background-color: rgb(80, 14, 212);
+  width: 200px;
+  padding: 10px;
+
+}
+.code-phone
+{
+  display: flex;
+}
+.your-email input{
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid;
+  background-color: rgb(80, 14, 212);
+  color: rgb(154, 147, 147);
+  width: 100%;
+  padding: 10px;
+}
+.checkbox{
+  display: flex;
+  color: white;
+}
+.checkbox input
+{
+  margin-right: 10px;
+padding-right: 10px;}
+
+.checkbox input::before {
+  background-color: red;
+}
+
+.place-color
+{
+color: #fff !important;
+border-bottom: 1px solid gray !important;
+
+}
+.country-color
+{
+  color: #fff !important;
+border-bottom: 1px solid gray !important;
+}
+
+
+input, select {
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  outline: none;
+}
+.terms
+{
+  text-decoration: underline;
+}
+.terms:visited
+{
+  color: #fff;
+}
